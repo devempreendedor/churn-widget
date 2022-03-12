@@ -1,0 +1,17 @@
+import React from 'react'
+import { screen, render, cleanup } from '@testing-library/react'
+import {{pascalCase name}} from './{{pascalCase name}}'
+
+describe('{{pascalCase name}} component', () => {
+  beforeAll(() => {
+    render(<{{pascalCase name}} />)
+  })
+
+  it('should have the text in the {{name}}', () => {
+    expect(
+      screen.getByText('{{pascalCase name}}')
+    ).toBeInTheDocument()
+  })
+
+  afterAll(cleanup)
+})
