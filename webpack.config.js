@@ -33,7 +33,7 @@ module.exports = {
     filename: 'bundle.js', // our output bundle
   },
   devServer: {
-    port: 3000,
+    port: 8080,
     historyApiFallback: true,
   },
   plugins: [

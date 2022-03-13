@@ -12,7 +12,8 @@
     "prettier:fix": "prettier src --write",
     "test": "jest",
     "prepare": "husky install",
-    "generate": "yarn plop --plopfile generate/plopfile.js"
+    "generate": "yarn plop --plopfile generate/plopfile.js",
+    "build:widget": "parcel build src/index.tsx --no-source-maps -d widget"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
